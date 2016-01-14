@@ -1,0 +1,25 @@
+This is the start of and idea to make communicate in a user friendly way to an mqtt broker via http. The overall concept
+is to be an interface to the broker, and automatically generate html which is decided by the mqtt nodes and streamline
+the whole process of IoT control, but open source and more importantly, an hobby project designed to make me learn how
+to develop a wide variety of principals, including but not limited to:
+    -mqtt
+    -http
+    -javascript
+    -node js
+    -python
+    -physical computing
+    -database design
+    -rest principals
+Front End Milestones:
+
+    0. Hello browser
+    1. dummy buttons - no js
+    2. add jquery - no ajax
+
+Back End Milestones:
+    (currently ota, and pubsub system are working, the current gui is using pushbullet, which is clunky, and slow and
+    provides limited feedback as to current state of switches)
+    0. first endpoint, hello lightbulb
+    1. open port 80 with authentication.
+    2. design the auto generation of html when a new device is detected
+    3. get away from node-red!!! rewrite endpoints...
